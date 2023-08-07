@@ -12,14 +12,14 @@ pip install TelegramContract2vCard
 from TelegramContract2vCard import html2vcf, json2vcf, html2dict, json2dict, dict2vcf
 ```
 ```py
-# make html or json to vcard
+# make html or json to vcf
 # use path from step 2
-html2vcard('./contacts.html')
-json2vcard('./result.json')
+html2vcf('./contacts.html')
+json2vcf('./result.json')
 
-# you can also make html or json to vcard with custom name and custom path
-html2vcard('contacts.html', 'custom_name', 'your/path/to/save/vcard')
-json2vcard('result.json', 'custom_name', 'your/path/to/save/vcard')
+# you can also make html or json to vcf with custom name and custom path
+html2vcf('contacts.html', 'custom_name', 'your/path/to/save/vcf')
+json2vcf('result.json', 'custom_name', 'your/path/to/save/vcf')
 
 # make json and html to dict
 html2dict('contacts.html')
@@ -27,11 +27,11 @@ json2dict('result.json')
 #result is like this
 # {name: {phone: phone_number, date: date}, ...}
 
-# make dict that is made by html or json to vcard
+# make dict that is made by html or json to vcf
 contract = html2dict('contacts.html')
-dict2vcard(contract)
+dict2vcf(contract)
 #or
-dict2vcard(contract, 'custom_name', 'your/path/to/save/vcard')
+dict2vcf(contract, 'custom_name', 'your/path/to/save/vcf')
 ```
 4. You will get contacts.vcf
 5. Import contacts.vcf to your phone

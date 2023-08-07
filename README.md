@@ -13,7 +13,7 @@ from TelegramContract2vCard import html2vcard, json2vcard, html2dict, json2dict,
 ```
 ```py
 # make html or json to vcard
-# use fath from step 2
+# use path from step 2
 html2vcard('./contacts.html')
 json2vcard('./result.json')
 

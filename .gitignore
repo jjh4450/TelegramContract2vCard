@@ -1,4 +1,10 @@
-contacts.*
-result.json
-*.vcf
+dummy/*
 *.idea/*
+
+*.html
+*.vcf
+*.json
+
+dist/*
+*.egg-info/*
+build/*

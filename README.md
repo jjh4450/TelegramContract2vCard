@@ -6,15 +6,16 @@ pip install TelegramContract2vCard
 ```
 ### Usage
 1. Export your telegram contacts to `contacts.html` or `result.json`(download step is below)
-2. Put `contacts.html` or `result.json` in the same directory as this script
+2. get path of `contacts.html` or `result.json` file
 3. Run this script
 ```py
 from TelegramContract2vCard import html2vcard, json2vcard, html2dict, json2dict, dict2vcard
 ```
 ```py
 # make html or json to vcard
-html2vcard('contacts.html')
-json2vcard('result.json')
+# use fath from step 2
+html2vcard('./contacts.html')
+json2vcard('./result.json')
 
 # you can also make html or json to vcard with custom name and custom path
 html2vcard('contacts.html', 'custom_name', 'your/path/to/save/vcard')

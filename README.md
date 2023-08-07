@@ -1,5 +1,5 @@
 # TelegramContract2vCard
-## make telegram contacts to 2vCard
+## make telegram contacts to vCard
 ### install
 ```sh
 pip install TelegramContract2vCard

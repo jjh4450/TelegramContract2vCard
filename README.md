@@ -9,7 +9,7 @@ pip install TelegramContract2vCard
 2. get path of `contacts.html` or `result.json` file
 3. Run this script
 ```py
-from TelegramContract2vCard import html2vcard, json2vcard, html2dict, json2dict, dict2vcard
+from TelegramContract2vCard import html2vcf, json2vcf, html2dict, json2dict, dict2vcf
 ```
 ```py
 # make html or json to vcard

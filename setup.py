@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='TelegramContract2vCard',
-    version='1.0.0',
+    version='1.0.2',
     description='make telegram contacts.html or result.json to vCard automatically',
     author='jjh4450',
     author_email='jjh4450git@gmail.com',
